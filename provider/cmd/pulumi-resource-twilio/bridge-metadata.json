@@ -1,1 +1,710 @@
-{}
+{
+    "auto-aliasing": {
+        "resources": {
+            "twilio_accounts_credentials_aws_v1": {
+                "current": "twilio:index/accountsCredentialsAwsV1:AccountsCredentialsAwsV1"
+            },
+            "twilio_accounts_credentials_public_keys_v1": {
+                "current": "twilio:index/accountsCredentialsPublicKeysV1:AccountsCredentialsPublicKeysV1"
+            },
+            "twilio_accounts_safe_list_numbers_v1": {
+                "current": "twilio:index/accountsSafeListNumbersV1:AccountsSafeListNumbersV1"
+            },
+            "twilio_api_accounts_addresses": {
+                "current": "twilio:index/apiAccountsAddresses:ApiAccountsAddresses"
+            },
+            "twilio_api_accounts_applications": {
+                "current": "twilio:index/apiAccountsApplications:ApiAccountsApplications"
+            },
+            "twilio_api_accounts_calls": {
+                "current": "twilio:index/apiAccountsCalls:ApiAccountsCalls",
+                "fields": {
+                    "recording_status_callback_event": {
+                        "maxItemsOne": false
+                    },
+                    "status_callback_event": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_api_accounts_calls_recordings": {
+                "current": "twilio:index/apiAccountsCallsRecordings:ApiAccountsCallsRecordings",
+                "fields": {
+                    "recording_status_callback_event": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_api_accounts_conferences_participants": {
+                "current": "twilio:index/apiAccountsConferencesParticipants:ApiAccountsConferencesParticipants",
+                "fields": {
+                    "conference_recording_status_callback_event": {
+                        "maxItemsOne": false
+                    },
+                    "conference_status_callback_event": {
+                        "maxItemsOne": false
+                    },
+                    "recording_status_callback_event": {
+                        "maxItemsOne": false
+                    },
+                    "status_callback_event": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_api_accounts_incoming_phone_numbers": {
+                "current": "twilio:index/apiAccountsIncomingPhoneNumbers:ApiAccountsIncomingPhoneNumbers"
+            },
+            "twilio_api_accounts_incoming_phone_numbers_assigned_add_ons": {
+                "current": "twilio:index/apiAccountsIncomingPhoneNumbersAssignedAddOns:ApiAccountsIncomingPhoneNumbersAssignedAddOns"
+            },
+            "twilio_api_accounts_keys": {
+                "current": "twilio:index/apiAccountsKeys:ApiAccountsKeys"
+            },
+            "twilio_api_accounts_messages": {
+                "current": "twilio:index/apiAccountsMessages:ApiAccountsMessages",
+                "fields": {
+                    "media_url": {
+                        "maxItemsOne": false
+                    },
+                    "persistent_action": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_api_accounts_queues": {
+                "current": "twilio:index/apiAccountsQueues:ApiAccountsQueues"
+            },
+            "twilio_api_accounts_signing_keys": {
+                "current": "twilio:index/apiAccountsSigningKeys:ApiAccountsSigningKeys"
+            },
+            "twilio_api_accounts_sip_credential_lists": {
+                "current": "twilio:index/apiAccountsSipCredentialLists:ApiAccountsSipCredentialLists"
+            },
+            "twilio_api_accounts_sip_credential_lists_credentials": {
+                "current": "twilio:index/apiAccountsSipCredentialListsCredentials:ApiAccountsSipCredentialListsCredentials"
+            },
+            "twilio_api_accounts_sip_domains": {
+                "current": "twilio:index/apiAccountsSipDomains:ApiAccountsSipDomains"
+            },
+            "twilio_api_accounts_sip_domains_auth_calls_credential_list_mappings": {
+                "current": "twilio:index/apiAccountsSipDomainsAuthCallsCredentialListMappings:ApiAccountsSipDomainsAuthCallsCredentialListMappings"
+            },
+            "twilio_api_accounts_sip_domains_auth_calls_ip_access_control_list_mappings": {
+                "current": "twilio:index/apiAccountsSipDomainsAuthCallsIpAccessControlListMappings:ApiAccountsSipDomainsAuthCallsIpAccessControlListMappings"
+            },
+            "twilio_api_accounts_sip_domains_auth_registrations_credential_list_mappings": {
+                "current": "twilio:index/apiAccountsSipDomainsAuthRegistrationsCredentialListMappings:ApiAccountsSipDomainsAuthRegistrationsCredentialListMappings"
+            },
+            "twilio_api_accounts_sip_domains_credential_list_mappings": {
+                "current": "twilio:index/apiAccountsSipDomainsCredentialListMappings:ApiAccountsSipDomainsCredentialListMappings"
+            },
+            "twilio_api_accounts_sip_domains_ip_access_control_list_mappings": {
+                "current": "twilio:index/apiAccountsSipDomainsIpAccessControlListMappings:ApiAccountsSipDomainsIpAccessControlListMappings"
+            },
+            "twilio_api_accounts_sip_ip_access_control_lists": {
+                "current": "twilio:index/apiAccountsSipIpAccessControlLists:ApiAccountsSipIpAccessControlLists"
+            },
+            "twilio_api_accounts_sip_ip_access_control_lists_ip_addresses": {
+                "current": "twilio:index/apiAccountsSipIpAccessControlListsIpAddresses:ApiAccountsSipIpAccessControlListsIpAddresses"
+            },
+            "twilio_api_accounts_usage_triggers": {
+                "current": "twilio:index/apiAccountsUsageTriggers:ApiAccountsUsageTriggers"
+            },
+            "twilio_chat_credentials_v1": {
+                "current": "twilio:index/chatCredentialsV1:ChatCredentialsV1"
+            },
+            "twilio_chat_credentials_v2": {
+                "current": "twilio:index/chatCredentialsV2:ChatCredentialsV2"
+            },
+            "twilio_chat_services_channels_invites_v1": {
+                "current": "twilio:index/chatServicesChannelsInvitesV1:ChatServicesChannelsInvitesV1"
+            },
+            "twilio_chat_services_channels_invites_v2": {
+                "current": "twilio:index/chatServicesChannelsInvitesV2:ChatServicesChannelsInvitesV2"
+            },
+            "twilio_chat_services_channels_members_v1": {
+                "current": "twilio:index/chatServicesChannelsMembersV1:ChatServicesChannelsMembersV1"
+            },
+            "twilio_chat_services_channels_members_v2": {
+                "current": "twilio:index/chatServicesChannelsMembersV2:ChatServicesChannelsMembersV2"
+            },
+            "twilio_chat_services_channels_messages_v1": {
+                "current": "twilio:index/chatServicesChannelsMessagesV1:ChatServicesChannelsMessagesV1"
+            },
+            "twilio_chat_services_channels_messages_v2": {
+                "current": "twilio:index/chatServicesChannelsMessagesV2:ChatServicesChannelsMessagesV2"
+            },
+            "twilio_chat_services_channels_v1": {
+                "current": "twilio:index/chatServicesChannelsV1:ChatServicesChannelsV1"
+            },
+            "twilio_chat_services_channels_v2": {
+                "current": "twilio:index/chatServicesChannelsV2:ChatServicesChannelsV2"
+            },
+            "twilio_chat_services_channels_webhooks_v2": {
+                "current": "twilio:index/chatServicesChannelsWebhooksV2:ChatServicesChannelsWebhooksV2",
+                "fields": {
+                    "configuration_filters": {
+                        "maxItemsOne": false
+                    },
+                    "configuration_triggers": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_chat_services_roles_v1": {
+                "current": "twilio:index/chatServicesRolesV1:ChatServicesRolesV1",
+                "fields": {
+                    "permission": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_chat_services_roles_v2": {
+                "current": "twilio:index/chatServicesRolesV2:ChatServicesRolesV2",
+                "fields": {
+                    "permission": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_chat_services_users_v1": {
+                "current": "twilio:index/chatServicesUsersV1:ChatServicesUsersV1"
+            },
+            "twilio_chat_services_users_v2": {
+                "current": "twilio:index/chatServicesUsersV2:ChatServicesUsersV2"
+            },
+            "twilio_chat_services_v1": {
+                "current": "twilio:index/chatServicesV1:ChatServicesV1",
+                "fields": {
+                    "webhook_filters": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_chat_services_v2": {
+                "current": "twilio:index/chatServicesV2:ChatServicesV2",
+                "fields": {
+                    "webhook_filters": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_conversations_configuration_addresses_v1": {
+                "current": "twilio:index/conversationsConfigurationAddressesV1:ConversationsConfigurationAddressesV1",
+                "fields": {
+                    "auto_creation_webhook_filters": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_conversations_conversations_messages_v1": {
+                "current": "twilio:index/conversationsConversationsMessagesV1:ConversationsConversationsMessagesV1"
+            },
+            "twilio_conversations_conversations_participants_v1": {
+                "current": "twilio:index/conversationsConversationsParticipantsV1:ConversationsConversationsParticipantsV1"
+            },
+            "twilio_conversations_conversations_v1": {
+                "current": "twilio:index/conversationsConversationsV1:ConversationsConversationsV1"
+            },
+            "twilio_conversations_conversations_webhooks_v1": {
+                "current": "twilio:index/conversationsConversationsWebhooksV1:ConversationsConversationsWebhooksV1",
+                "fields": {
+                    "configuration_filters": {
+                        "maxItemsOne": false
+                    },
+                    "configuration_triggers": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_conversations_credentials_v1": {
+                "current": "twilio:index/conversationsCredentialsV1:ConversationsCredentialsV1"
+            },
+            "twilio_conversations_roles_v1": {
+                "current": "twilio:index/conversationsRolesV1:ConversationsRolesV1",
+                "fields": {
+                    "permission": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_conversations_services_conversations_messages_v1": {
+                "current": "twilio:index/conversationsServicesConversationsMessagesV1:ConversationsServicesConversationsMessagesV1"
+            },
+            "twilio_conversations_services_conversations_participants_v1": {
+                "current": "twilio:index/conversationsServicesConversationsParticipantsV1:ConversationsServicesConversationsParticipantsV1"
+            },
+            "twilio_conversations_services_conversations_v1": {
+                "current": "twilio:index/conversationsServicesConversationsV1:ConversationsServicesConversationsV1"
+            },
+            "twilio_conversations_services_conversations_webhooks_v1": {
+                "current": "twilio:index/conversationsServicesConversationsWebhooksV1:ConversationsServicesConversationsWebhooksV1",
+                "fields": {
+                    "configuration_filters": {
+                        "maxItemsOne": false
+                    },
+                    "configuration_triggers": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_conversations_services_roles_v1": {
+                "current": "twilio:index/conversationsServicesRolesV1:ConversationsServicesRolesV1",
+                "fields": {
+                    "permission": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_conversations_services_users_v1": {
+                "current": "twilio:index/conversationsServicesUsersV1:ConversationsServicesUsersV1"
+            },
+            "twilio_conversations_services_v1": {
+                "current": "twilio:index/conversationsServicesV1:ConversationsServicesV1"
+            },
+            "twilio_conversations_users_v1": {
+                "current": "twilio:index/conversationsUsersV1:ConversationsUsersV1"
+            },
+            "twilio_events_sinks_v1": {
+                "current": "twilio:index/eventsSinksV1:EventsSinksV1"
+            },
+            "twilio_events_subscriptions_subscribed_events_v1": {
+                "current": "twilio:index/eventsSubscriptionsSubscribedEventsV1:EventsSubscriptionsSubscribedEventsV1"
+            },
+            "twilio_events_subscriptions_v1": {
+                "current": "twilio:index/eventsSubscriptionsV1:EventsSubscriptionsV1",
+                "fields": {
+                    "types": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_flex_channels_v1": {
+                "current": "twilio:index/flexChannelsV1:FlexChannelsV1"
+            },
+            "twilio_flex_flex_flows_v1": {
+                "current": "twilio:index/flexFlexFlowsV1:FlexFlexFlowsV1"
+            },
+            "twilio_flex_insights_quality_management_questionnaires_v1": {
+                "current": "twilio:index/flexInsightsQualityManagementQuestionnairesV1:FlexInsightsQualityManagementQuestionnairesV1",
+                "fields": {
+                    "question_sids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_flex_web_channels_v1": {
+                "current": "twilio:index/flexWebChannelsV1:FlexWebChannelsV1"
+            },
+            "twilio_intelligence_operators_custom_v2": {
+                "current": "twilio:index/intelligenceOperatorsCustomV2:IntelligenceOperatorsCustomV2"
+            },
+            "twilio_intelligence_services_operators_v2": {
+                "current": "twilio:index/intelligenceServicesOperatorsV2:IntelligenceServicesOperatorsV2"
+            },
+            "twilio_intelligence_services_v2": {
+                "current": "twilio:index/intelligenceServicesV2:IntelligenceServicesV2"
+            },
+            "twilio_intelligence_transcripts_v2": {
+                "current": "twilio:index/intelligenceTranscriptsV2:IntelligenceTranscriptsV2"
+            },
+            "twilio_ip_messaging_credentials_v1": {
+                "current": "twilio:index/ipMessagingCredentialsV1:IpMessagingCredentialsV1"
+            },
+            "twilio_ip_messaging_credentials_v2": {
+                "current": "twilio:index/ipMessagingCredentialsV2:IpMessagingCredentialsV2"
+            },
+            "twilio_ip_messaging_services_channels_invites_v1": {
+                "current": "twilio:index/ipMessagingServicesChannelsInvitesV1:IpMessagingServicesChannelsInvitesV1"
+            },
+            "twilio_ip_messaging_services_channels_invites_v2": {
+                "current": "twilio:index/ipMessagingServicesChannelsInvitesV2:IpMessagingServicesChannelsInvitesV2"
+            },
+            "twilio_ip_messaging_services_channels_members_v1": {
+                "current": "twilio:index/ipMessagingServicesChannelsMembersV1:IpMessagingServicesChannelsMembersV1"
+            },
+            "twilio_ip_messaging_services_channels_members_v2": {
+                "current": "twilio:index/ipMessagingServicesChannelsMembersV2:IpMessagingServicesChannelsMembersV2"
+            },
+            "twilio_ip_messaging_services_channels_messages_v1": {
+                "current": "twilio:index/ipMessagingServicesChannelsMessagesV1:IpMessagingServicesChannelsMessagesV1"
+            },
+            "twilio_ip_messaging_services_channels_messages_v2": {
+                "current": "twilio:index/ipMessagingServicesChannelsMessagesV2:IpMessagingServicesChannelsMessagesV2"
+            },
+            "twilio_ip_messaging_services_channels_v1": {
+                "current": "twilio:index/ipMessagingServicesChannelsV1:IpMessagingServicesChannelsV1"
+            },
+            "twilio_ip_messaging_services_channels_v2": {
+                "current": "twilio:index/ipMessagingServicesChannelsV2:IpMessagingServicesChannelsV2"
+            },
+            "twilio_ip_messaging_services_channels_webhooks_v2": {
+                "current": "twilio:index/ipMessagingServicesChannelsWebhooksV2:IpMessagingServicesChannelsWebhooksV2",
+                "fields": {
+                    "configuration_filters": {
+                        "maxItemsOne": false
+                    },
+                    "configuration_triggers": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_ip_messaging_services_roles_v1": {
+                "current": "twilio:index/ipMessagingServicesRolesV1:IpMessagingServicesRolesV1",
+                "fields": {
+                    "permission": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_ip_messaging_services_roles_v2": {
+                "current": "twilio:index/ipMessagingServicesRolesV2:IpMessagingServicesRolesV2",
+                "fields": {
+                    "permission": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_ip_messaging_services_users_v1": {
+                "current": "twilio:index/ipMessagingServicesUsersV1:IpMessagingServicesUsersV1"
+            },
+            "twilio_ip_messaging_services_users_v2": {
+                "current": "twilio:index/ipMessagingServicesUsersV2:IpMessagingServicesUsersV2"
+            },
+            "twilio_ip_messaging_services_v1": {
+                "current": "twilio:index/ipMessagingServicesV1:IpMessagingServicesV1",
+                "fields": {
+                    "webhook_filters": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_ip_messaging_services_v2": {
+                "current": "twilio:index/ipMessagingServicesV2:IpMessagingServicesV2",
+                "fields": {
+                    "webhook_filters": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_messaging_services_alpha_senders_v1": {
+                "current": "twilio:index/messagingServicesAlphaSendersV1:MessagingServicesAlphaSendersV1"
+            },
+            "twilio_messaging_services_compliance_usa2p_v1": {
+                "current": "twilio:index/messagingServicesComplianceUsa2pV1:MessagingServicesComplianceUsa2pV1",
+                "fields": {
+                    "help_keywords": {
+                        "maxItemsOne": false
+                    },
+                    "message_samples": {
+                        "maxItemsOne": false
+                    },
+                    "opt_in_keywords": {
+                        "maxItemsOne": false
+                    },
+                    "opt_out_keywords": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_messaging_services_phone_numbers_v1": {
+                "current": "twilio:index/messagingServicesPhoneNumbersV1:MessagingServicesPhoneNumbersV1"
+            },
+            "twilio_messaging_services_short_codes_v1": {
+                "current": "twilio:index/messagingServicesShortCodesV1:MessagingServicesShortCodesV1"
+            },
+            "twilio_messaging_services_v1": {
+                "current": "twilio:index/messagingServicesV1:MessagingServicesV1"
+            },
+            "twilio_messaging_tollfree_verifications_v1": {
+                "current": "twilio:index/messagingTollfreeVerificationsV1:MessagingTollfreeVerificationsV1",
+                "fields": {
+                    "opt_in_image_urls": {
+                        "maxItemsOne": false
+                    },
+                    "use_case_categories": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_microvisor_configs_v1": {
+                "current": "twilio:index/microvisorConfigsV1:MicrovisorConfigsV1"
+            },
+            "twilio_microvisor_devices_configs_v1": {
+                "current": "twilio:index/microvisorDevicesConfigsV1:MicrovisorDevicesConfigsV1"
+            },
+            "twilio_microvisor_devices_secrets_v1": {
+                "current": "twilio:index/microvisorDevicesSecretsV1:MicrovisorDevicesSecretsV1"
+            },
+            "twilio_microvisor_secrets_v1": {
+                "current": "twilio:index/microvisorSecretsV1:MicrovisorSecretsV1"
+            },
+            "twilio_notify_credentials_v1": {
+                "current": "twilio:index/notifyCredentialsV1:NotifyCredentialsV1"
+            },
+            "twilio_notify_services_bindings_v1": {
+                "current": "twilio:index/notifyServicesBindingsV1:NotifyServicesBindingsV1",
+                "fields": {
+                    "tag": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_notify_services_v1": {
+                "current": "twilio:index/notifyServicesV1:NotifyServicesV1"
+            },
+            "twilio_numbers_hosted_number_authorization_documents_v2": {
+                "current": "twilio:index/numbersHostedNumberAuthorizationDocumentsV2:NumbersHostedNumberAuthorizationDocumentsV2",
+                "fields": {
+                    "cc_emails": {
+                        "maxItemsOne": false
+                    },
+                    "hosted_number_order_sids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_numbers_hosted_number_orders_v2": {
+                "current": "twilio:index/numbersHostedNumberOrdersV2:NumbersHostedNumberOrdersV2",
+                "fields": {
+                    "cc_emails": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_numbers_regulatory_compliance_bundles_item_assignments_v2": {
+                "current": "twilio:index/numbersRegulatoryComplianceBundlesItemAssignmentsV2:NumbersRegulatoryComplianceBundlesItemAssignmentsV2"
+            },
+            "twilio_numbers_regulatory_compliance_bundles_v2": {
+                "current": "twilio:index/numbersRegulatoryComplianceBundlesV2:NumbersRegulatoryComplianceBundlesV2"
+            },
+            "twilio_numbers_regulatory_compliance_end_users_v2": {
+                "current": "twilio:index/numbersRegulatoryComplianceEndUsersV2:NumbersRegulatoryComplianceEndUsersV2"
+            },
+            "twilio_numbers_regulatory_compliance_supporting_documents_v2": {
+                "current": "twilio:index/numbersRegulatoryComplianceSupportingDocumentsV2:NumbersRegulatoryComplianceSupportingDocumentsV2"
+            },
+            "twilio_proxy_services_phone_numbers_v1": {
+                "current": "twilio:index/proxyServicesPhoneNumbersV1:ProxyServicesPhoneNumbersV1"
+            },
+            "twilio_proxy_services_sessions_participants_v1": {
+                "current": "twilio:index/proxyServicesSessionsParticipantsV1:ProxyServicesSessionsParticipantsV1"
+            },
+            "twilio_proxy_services_sessions_v1": {
+                "current": "twilio:index/proxyServicesSessionsV1:ProxyServicesSessionsV1",
+                "fields": {
+                    "participants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_proxy_services_short_codes_v1": {
+                "current": "twilio:index/proxyServicesShortCodesV1:ProxyServicesShortCodesV1"
+            },
+            "twilio_proxy_services_v1": {
+                "current": "twilio:index/proxyServicesV1:ProxyServicesV1"
+            },
+            "twilio_serverless_services_assets_v1": {
+                "current": "twilio:index/serverlessServicesAssetsV1:ServerlessServicesAssetsV1"
+            },
+            "twilio_serverless_services_builds_v1": {
+                "current": "twilio:index/serverlessServicesBuildsV1:ServerlessServicesBuildsV1",
+                "fields": {
+                    "asset_versions": {
+                        "maxItemsOne": false
+                    },
+                    "function_versions": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_serverless_services_environments_v1": {
+                "current": "twilio:index/serverlessServicesEnvironmentsV1:ServerlessServicesEnvironmentsV1"
+            },
+            "twilio_serverless_services_environments_variables_v1": {
+                "current": "twilio:index/serverlessServicesEnvironmentsVariablesV1:ServerlessServicesEnvironmentsVariablesV1"
+            },
+            "twilio_serverless_services_functions_v1": {
+                "current": "twilio:index/serverlessServicesFunctionsV1:ServerlessServicesFunctionsV1"
+            },
+            "twilio_serverless_services_v1": {
+                "current": "twilio:index/serverlessServicesV1:ServerlessServicesV1"
+            },
+            "twilio_studio_flows_engagements_v1": {
+                "current": "twilio:index/studioFlowsEngagementsV1:StudioFlowsEngagementsV1"
+            },
+            "twilio_studio_flows_executions_v1": {
+                "current": "twilio:index/studioFlowsExecutionsV1:StudioFlowsExecutionsV1"
+            },
+            "twilio_studio_flows_executions_v2": {
+                "current": "twilio:index/studioFlowsExecutionsV2:StudioFlowsExecutionsV2"
+            },
+            "twilio_studio_flows_v2": {
+                "current": "twilio:index/studioFlowsV2:StudioFlowsV2"
+            },
+            "twilio_supersim_network_access_profiles_networks_v1": {
+                "current": "twilio:index/supersimNetworkAccessProfilesNetworksV1:SupersimNetworkAccessProfilesNetworksV1"
+            },
+            "twilio_sync_services_documents_v1": {
+                "current": "twilio:index/syncServicesDocumentsV1:SyncServicesDocumentsV1"
+            },
+            "twilio_sync_services_lists_items_v1": {
+                "current": "twilio:index/syncServicesListsItemsV1:SyncServicesListsItemsV1"
+            },
+            "twilio_sync_services_lists_v1": {
+                "current": "twilio:index/syncServicesListsV1:SyncServicesListsV1"
+            },
+            "twilio_sync_services_maps_items_v1": {
+                "current": "twilio:index/syncServicesMapsItemsV1:SyncServicesMapsItemsV1"
+            },
+            "twilio_sync_services_maps_v1": {
+                "current": "twilio:index/syncServicesMapsV1:SyncServicesMapsV1"
+            },
+            "twilio_sync_services_streams_v1": {
+                "current": "twilio:index/syncServicesStreamsV1:SyncServicesStreamsV1"
+            },
+            "twilio_sync_services_v1": {
+                "current": "twilio:index/syncServicesV1:SyncServicesV1"
+            },
+            "twilio_taskrouter_workspaces_activities_v1": {
+                "current": "twilio:index/taskrouterWorkspacesActivitiesV1:TaskrouterWorkspacesActivitiesV1"
+            },
+            "twilio_taskrouter_workspaces_task_channels_v1": {
+                "current": "twilio:index/taskrouterWorkspacesTaskChannelsV1:TaskrouterWorkspacesTaskChannelsV1"
+            },
+            "twilio_taskrouter_workspaces_task_queues_v1": {
+                "current": "twilio:index/taskrouterWorkspacesTaskQueuesV1:TaskrouterWorkspacesTaskQueuesV1"
+            },
+            "twilio_taskrouter_workspaces_tasks_v1": {
+                "current": "twilio:index/taskrouterWorkspacesTasksV1:TaskrouterWorkspacesTasksV1"
+            },
+            "twilio_taskrouter_workspaces_v1": {
+                "current": "twilio:index/taskrouterWorkspacesV1:TaskrouterWorkspacesV1"
+            },
+            "twilio_taskrouter_workspaces_workers_v1": {
+                "current": "twilio:index/taskrouterWorkspacesWorkersV1:TaskrouterWorkspacesWorkersV1"
+            },
+            "twilio_taskrouter_workspaces_workflows_v1": {
+                "current": "twilio:index/taskrouterWorkspacesWorkflowsV1:TaskrouterWorkspacesWorkflowsV1"
+            },
+            "twilio_trunking_trunks_credential_lists_v1": {
+                "current": "twilio:index/trunkingTrunksCredentialListsV1:TrunkingTrunksCredentialListsV1"
+            },
+            "twilio_trunking_trunks_ip_access_control_lists_v1": {
+                "current": "twilio:index/trunkingTrunksIpAccessControlListsV1:TrunkingTrunksIpAccessControlListsV1"
+            },
+            "twilio_trunking_trunks_origination_urls_v1": {
+                "current": "twilio:index/trunkingTrunksOriginationUrlsV1:TrunkingTrunksOriginationUrlsV1"
+            },
+            "twilio_trunking_trunks_phone_numbers_v1": {
+                "current": "twilio:index/trunkingTrunksPhoneNumbersV1:TrunkingTrunksPhoneNumbersV1"
+            },
+            "twilio_trunking_trunks_v1": {
+                "current": "twilio:index/trunkingTrunksV1:TrunkingTrunksV1"
+            },
+            "twilio_trusthub_customer_profiles_channel_endpoint_assignments_v1": {
+                "current": "twilio:index/trusthubCustomerProfilesChannelEndpointAssignmentsV1:TrusthubCustomerProfilesChannelEndpointAssignmentsV1"
+            },
+            "twilio_trusthub_customer_profiles_entity_assignments_v1": {
+                "current": "twilio:index/trusthubCustomerProfilesEntityAssignmentsV1:TrusthubCustomerProfilesEntityAssignmentsV1"
+            },
+            "twilio_trusthub_customer_profiles_v1": {
+                "current": "twilio:index/trusthubCustomerProfilesV1:TrusthubCustomerProfilesV1"
+            },
+            "twilio_trusthub_end_users_v1": {
+                "current": "twilio:index/trusthubEndUsersV1:TrusthubEndUsersV1"
+            },
+            "twilio_trusthub_supporting_documents_v1": {
+                "current": "twilio:index/trusthubSupportingDocumentsV1:TrusthubSupportingDocumentsV1"
+            },
+            "twilio_trusthub_trust_products_channel_endpoint_assignments_v1": {
+                "current": "twilio:index/trusthubTrustProductsChannelEndpointAssignmentsV1:TrusthubTrustProductsChannelEndpointAssignmentsV1"
+            },
+            "twilio_trusthub_trust_products_entity_assignments_v1": {
+                "current": "twilio:index/trusthubTrustProductsEntityAssignmentsV1:TrusthubTrustProductsEntityAssignmentsV1"
+            },
+            "twilio_trusthub_trust_products_v1": {
+                "current": "twilio:index/trusthubTrustProductsV1:TrusthubTrustProductsV1"
+            },
+            "twilio_verify_safe_list_numbers_v2": {
+                "current": "twilio:index/verifySafeListNumbersV2:VerifySafeListNumbersV2"
+            },
+            "twilio_verify_services_entities_factors_v2": {
+                "current": "twilio:index/verifyServicesEntitiesFactorsV2:VerifyServicesEntitiesFactorsV2"
+            },
+            "twilio_verify_services_entities_v2": {
+                "current": "twilio:index/verifyServicesEntitiesV2:VerifyServicesEntitiesV2"
+            },
+            "twilio_verify_services_messaging_configurations_v2": {
+                "current": "twilio:index/verifyServicesMessagingConfigurationsV2:VerifyServicesMessagingConfigurationsV2"
+            },
+            "twilio_verify_services_rate_limits_buckets_v2": {
+                "current": "twilio:index/verifyServicesRateLimitsBucketsV2:VerifyServicesRateLimitsBucketsV2"
+            },
+            "twilio_verify_services_rate_limits_v2": {
+                "current": "twilio:index/verifyServicesRateLimitsV2:VerifyServicesRateLimitsV2"
+            },
+            "twilio_verify_services_v2": {
+                "current": "twilio:index/verifyServicesV2:VerifyServicesV2"
+            },
+            "twilio_verify_services_webhooks_v2": {
+                "current": "twilio:index/verifyServicesWebhooksV2:VerifyServicesWebhooksV2",
+                "fields": {
+                    "event_types": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_video_composition_hooks_v1": {
+                "current": "twilio:index/videoCompositionHooksV1:VideoCompositionHooksV1",
+                "fields": {
+                    "audio_sources": {
+                        "maxItemsOne": false
+                    },
+                    "audio_sources_excluded": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_video_compositions_v1": {
+                "current": "twilio:index/videoCompositionsV1:VideoCompositionsV1",
+                "fields": {
+                    "audio_sources": {
+                        "maxItemsOne": false
+                    },
+                    "audio_sources_excluded": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "twilio_voice_byoc_trunks_v1": {
+                "current": "twilio:index/voiceByocTrunksV1:VoiceByocTrunksV1"
+            },
+            "twilio_voice_connection_policies_targets_v1": {
+                "current": "twilio:index/voiceConnectionPoliciesTargetsV1:VoiceConnectionPoliciesTargetsV1"
+            },
+            "twilio_voice_connection_policies_v1": {
+                "current": "twilio:index/voiceConnectionPoliciesV1:VoiceConnectionPoliciesV1"
+            },
+            "twilio_voice_ip_records_v1": {
+                "current": "twilio:index/voiceIpRecordsV1:VoiceIpRecordsV1"
+            },
+            "twilio_voice_source_ip_mappings_v1": {
+                "current": "twilio:index/voiceSourceIpMappingsV1:VoiceSourceIpMappingsV1"
+            },
+            "twilio_wireless_commands_v1": {
+                "current": "twilio:index/wirelessCommandsV1:WirelessCommandsV1"
+            },
+            "twilio_wireless_rate_plans_v1": {
+                "current": "twilio:index/wirelessRatePlansV1:WirelessRatePlansV1",
+                "fields": {
+                    "international_roaming": {
+                        "maxItemsOne": false
+                    }
+                }
+            }
+        }
+    },
+    "auto-settings": {}
+}
